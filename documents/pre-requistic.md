@@ -23,12 +23,12 @@ Repository 'rhel-9-for-x86_64-highavailability-rpms' is enabled for this system.
 #### 1.2.1 고가용성 패키지 설치
 
 ```bash
-dnf install pcs pacemaker
+dnf install -y pcs pacemaker
 ```
 
 실행 결과
 ```
-[root@aap-db1 ~]# dnf install pcs pacemaker
+[root@aap-db1 ~]# dnf install -y pcs pacemaker
 ...<snip>...
 
 [root@aap-db1 ~]#
@@ -261,12 +261,12 @@ PCP는 RHEL 시스템을 위한 리소스 모니터링 도구로, pcp-zeroconf �
 ### 3.2 패키지 설치
 
 ```bash
-dnf install pcp-zeroconf
+dnf install -y pcp-zeroconf
 ```
 
 실행 결과
 ```
-[root@aap-db1 ~]# dnf install pcp-zeroconf
+[root@aap-db1 ~]# dnf install -y pcp-zeroconf
 ...<snip>...
 
 [root@aap-db1 ~]#
